@@ -1,0 +1,189 @@
+/* Global Styles */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.25rem;
+}
+
+/* Header Section Styles */
+
+header {
+    height: 100vh;
+    background-image: url("https://via.placeholder.com/1920x1080.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+header .btn {
+    font-size: 1.25rem;
+}
+
+/* About Section Styles */
+
+#about {
+    padding: 5rem 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#about img {
+    margin-bottom: 2rem;
+}
+
+/* Services Section Styles */
+
+#services {
+    padding: 5rem 0;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#services .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+#services .card:hover {
+    transform: translateY(-10px);
+}
+
+#services .card .card-body h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#services .card .card-body p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* staff Section Styles */
+
+#about-staff {
+    padding: 5rem 0;
+}
+
+#about-staff h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#about-staff .card {
+    border: none;
+    transition: all 0.3s;
+}
+
+#about-staff .card:hover {
+    transform: translateY(-10px);
+}
+
+#about-staff .card img {
+    border-radius: 0.25rem;
+}
+
+/* Contact Section Styles */
+
+.contact-section {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+
+.contact-section h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    background-color: #222;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}

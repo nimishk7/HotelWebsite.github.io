@@ -1,0 +1,67 @@
+#navbarNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand{
+    font-size: 1.5 rem;
+}
+.main-header{
+    height: 90vh;
+    width: 100vw;
+    /* border: 1px solid red; */
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/carousel-2.jpg');
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    
+}
+
+
+.main-header::after{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-inner img{
+    height: 100vh;
+}
+#about{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-4{
+    /* border: 1px solid red; */
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    margin-top: -2rem;
+    transition: all ease-in 0.2s;
+    box-shadow: (10, 10, 15, gray);
+}
+.card{
+    border: 1px solid black;
+    
+}
+
+.service{
+    padding-top: 1rem;
+}
+.room-header{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
